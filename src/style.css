@@ -1,9 +1,17 @@
-body {
-  background: #7d3f3d;
+html {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
-  color: #5f160a;
+  color: #005792;
   text-align: center;
   margin: 7px;
   margin-bottom: 14px;
@@ -38,8 +46,10 @@ select {
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
-  background: #f1b08c;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  background: white;
   border-radius: 20px;
   padding: 30px;
   opacity: 90%;
@@ -64,7 +74,7 @@ select {
 
 footer {
   text-align: center;
-  color: lightgrey;
+  color: #fdb44b;
 }
 
 #github-link {
